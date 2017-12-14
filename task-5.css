@@ -44,7 +44,7 @@ main {
     position: relative;
     height: 1.5rem;
     width: 100%;
-    background-size: 100%;
+    background-size: cover;
 }
 .portrait {
     position: absolute;
@@ -185,16 +185,19 @@ footer button {
     width: 40%;
     height: .5rem;
     border-radius: .07rem .07rem;
+    border: none;
+    outline: none;
+    background: none;
 }
 .leave-word {
     line-height: .5rem;
-    border: 1px solid #5fc0cd;
+    border: .01rem solid #5fc0cd;
     color: #5fc0cd;
     background-color: #fff;
 }
 .telephone {
     line-height: .5rem;
     background-color: #5fc0cd;
-    color: #fff
+    color: #fff;
 }
 

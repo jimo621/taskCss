@@ -52,6 +52,10 @@ header {
     background: url(img/sprit.png) -0.56rem -1.01rem;
     transform: scale(.5);
 }
+.triangle {
+    position: relative;
+    right: -1.5rem;
+}
 nav {
     position: fixed;
     left: 0;

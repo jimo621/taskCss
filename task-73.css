@@ -75,6 +75,7 @@ main {
     background-image: url(./img/task7-34.png);
     transform: scale(.5);
     text-align: center;
+    z-index: 2;
 }
 .nav-bg-2 {
     width: .85rem;
@@ -87,7 +88,7 @@ main {
     top: 90%;
     font-size: 0.22rem;
     color: #fff;
-    z-index: 1;
+    z-index: 3;
 }
 .bg-nav2 {
     margin-top: 0.4rem;

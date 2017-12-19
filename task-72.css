@@ -63,9 +63,9 @@ main {
     width: .52rem;
     height: .52rem;
     margin-right: -0.12rem;
-    border-radius: 50%;
-    background-color: #d58512;
-    /*background: url(./img/sprit7-2.png) -0.97rem -0.48rem;*/
+    /*border-radius: 50%;*/
+    /*background-color: #d58512;*/
+    background: url(./img/sprit7-2.png) -0.97rem -0.48rem;
     transform: scale(0.6);
 }
 .vote-a {

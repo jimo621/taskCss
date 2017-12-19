@@ -32,7 +32,7 @@ header  {
     margin-right: .1rem;
     transform: scale(.6);
 }
-main {
+.main2 {
     position: relative;
     width: 100%;
     margin-top: .4rem;
@@ -173,9 +173,6 @@ main {
     color: #fff;
 }
 
-footer {
-    position: fixed;
-}
 .foot {
     display: flex;
     justify-content: center;

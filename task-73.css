@@ -56,10 +56,11 @@ main {
 }
 .ba-nav1 {
     /*position: relative;*/
-    height: 0.9rem;
-    top: 0;
+    /*height: 0.9rem;*/
+    /*top: 0;*/
 }
 .nav-bg {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;

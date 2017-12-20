@@ -63,13 +63,14 @@ header {
     align-items: center;
 }
 .nav-bg-1 {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: -50%;
     width: 3.51rem;
     height: 2.05rem;
     background-image: url(./img/task7-34.png);
     transform: scale(.5);
-    /*z-index: 2;*/
+    text-align: center;
+    z-index: 2;
 }
 .nav-bg-2 {
     width: .85rem;
@@ -78,11 +79,11 @@ header {
     transform: scale(.5);
 }
 .nav-bg-3 {
-    position: fixed;
-    top: 19%;
+    position: absolute;
+    top: 90%;
     font-size: .22rem;
     color: #fff;
-    /*z-index: 3;*/
+    z-index: 3;
 }
 .bg-nav2 {
     margin-top: .4rem;

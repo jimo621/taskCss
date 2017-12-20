@@ -63,13 +63,12 @@ header {
     align-items: center;
 }
 .nav-bg-1 {
-    position: absolute;
-    top: -50%;
+    position: fixed;
+    top: 0;
     width: 3.51rem;
     height: 2.05rem;
     background-image: url(./img/task7-34.png);
     transform: scale(.5);
-    text-align: center;
     z-index: 2;
 }
 .nav-bg-2 {

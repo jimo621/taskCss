@@ -69,7 +69,7 @@ header {
     height: 2.05rem;
     background-image: url(./img/task7-34.png);
     transform: scale(.5);
-    z-index: 2;
+    /*z-index: 2;*/
 }
 .nav-bg-2 {
     width: .85rem;
@@ -82,7 +82,7 @@ header {
     top: 19%;
     font-size: .22rem;
     color: #fff;
-    z-index: 3;
+    /*z-index: 3;*/
 }
 .bg-nav2 {
     margin-top: .4rem;

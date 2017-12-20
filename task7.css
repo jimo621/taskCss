@@ -286,11 +286,6 @@ header  {
     background-color: #29bde0;
     color: #fff;
 }
-.ba-nav1 {
-    /*position: relative;*/
-    /*height: 0.9rem;*/
-    /*top: 0;*/
-}
 .nav-bg {
     position: relative;
     display: flex;
@@ -298,28 +293,8 @@ header  {
     justify-content: center;
     align-items: center;
 }
-.nav-bg-1 {
-    position: absolute;
-    top: -50%;
-    width: 3.51rem;
-    height: 2.05rem;
-    background-image: url(./img/task7-34.png);
+.task7bg {
     transform: scale(.5);
-    text-align: center;
-    z-index: 2;
-}
-.nav-bg-2 {
-    width: .85rem;
-    height: .84rem;
-    background-image: url(./img/task7-35.png);
-    transform: scale(.5);
-}
-.nav-bg-3 {
-    position: absolute;
-    top: 90%;
-    font-size: .22rem;
-    color: #fff;
-    z-index: 3;
 }
 .bg-nav2 {
     margin-top: .4rem;

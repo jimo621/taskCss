@@ -61,10 +61,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 1.3rem;
 }
 .nav-bg-1 {
     position: absolute;
-    top: -50%;
+    top: -0.42rem;
     width: 3.51rem;
     height: 2.05rem;
     background-image: url(./img/task7-34.png);
@@ -73,6 +74,8 @@ header {
     z-index: 2;
 }
 .nav-bg-2 {
+    position: relative;
+    top: -0.225rem;
     width: .85rem;
     height: .84rem;
     background-image: url(./img/task7-35.png);
@@ -80,13 +83,13 @@ header {
 }
 .nav-bg-3 {
     position: absolute;
-    top: 90%;
+    top: 0.75rem;
     font-size: .22rem;
     color: #fff;
     z-index: 3;
 }
 .bg-nav2 {
-    margin-top: .4rem;
+    /*margin-top: .4rem;*/
     padding: 0 7%;
     color: #ffc865;
     font-size: 0.16rem;

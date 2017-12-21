@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 625%;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.home_page_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    width: 100%;
+    height: 0.3rem;
+    background-color: #fff;
+}
+.home_page_head a{
+    display: inline-block;
+    width: 0.26rem;
+    height: 0.26rem;
+    margin: 0 0.05rem;
+    transform: scale(.8);
+}
+.icon1 {
+    background-image: url(./images/icon_01.jpg);
+}
+.icon2 {
+    background-image: url(./images/icon_02.jpg);
+}
+.icon3 {
+    background-image: url(./images/icon_03.png);
+}
+.home_page_main {
+    width: 100%;
+    background-color: #fafafa;
+}
+.home_page_nav {
+    position: relative;
+    width: 100%;
+    height: 0.5rem;
+    padding: 0 10%;
+    background-color: #29b078;
+}
+.home_page_nav ul {
+    position: absolute;
+    right: 8.5%;
+    top: 50%;
+    padding: 0;
+    transform: translateY(-50%);
+}
+.home_page_nav li {
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+.home_page_nav a {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    margin: 0 0.1rem;
+    text-decoration: none;
+    border-bottom: none;
+    color: #fff;
+}
+.home_page_nav a:hover {
+    border-bottom: 0.03rem solid #fff;
+}
+.carousel-caption p {
+    padding-left: 1.6rem;
+    margin-bottom: -0.2rem;
+    font-size: 0.18rem;
+    color: #fff;
+}
+.carousel-caption h3 {
+    color: #fff;
+    margin-bottom: 1.3rem;
+    margin-top: 0;
+}
+.carousel-caption span {
+    font-size: 0.6rem;
+ }
+.advantage {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.home_page_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_page_col img {
+    width: 0.6rem;
+    height: 0.62rem;
+}
+.home_page_col h4 {
+    margin: 0.2rem 0;
+}
+.home_page_col p {
+    color: #999998;
+}
+.home_page_md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.6rem;
+    border-left: 0.01rem solid ;
+    color: #999998;
+}
+.home_page_md span {
+    padding-left: 0.1rem;
+    color: #26a26f;
+}
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task h4 {
+    color: #29b078;
+}
+.task1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0.74rem;
+    height: 0.74rem;
+    background-image: url(./images/icon8.png);
+    transform: scale(.8);
+    /*border: 0.01rem solid #000;*/
+    /*border-radius: 50%;*/
+}
+.task2 {
+    width: 0.26rem;
+    height: 0.26rem;
+    background-image: url(./images/icon9.png);
+}
+.task p {
+    width: 1.5rem;
+    padding: 0 0.05rem;
+    margin-bottom: 0;
+    color: #999999;
+}
+.taskh {
+    padding: 0.2rem 0;
+}
+.task_skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 3rem;
+    padding: 0.1rem 0.25rem;
+    background-color: #fff;
+}
+.task_skill h4 {
+    padding: 0.15rem 0;
+}
+.task3 {
+    width: 1.08rem;
+    height: 1.08rem;
+    background-image: url(./images/icon13.png);
+}
+.task4 {
+    width: 1.08rem;
+    height: 1.08rem;
+    background-image: url(./images/icon14.png);
+}
+.task5 {
+    width: 1.08rem;
+    height: 1.08rem;
+    background-image: url(./images/icon12.png);
+}
+.task6 {
+    width: 1.08rem;
+    height: 1.08rem;
+    background-image: url(./images/icon11.png);
+}
+.spot {
+    display: inline-block;
+    width: 0.17rem;
+    height: 0.17rem;
+    background-image: url(./images/icon10.png);
+}
+.spot1 {
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.16rem;
+    border: 0.01rem solid;
+    border-radius: 50%;
+    background-color: #29b078;
+}
+.col_company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.63rem;
+    height: 1.98rem;
+    background-color: #fff;
+}
+.company1 {
+    width: 2.12rem;
+    height: 1.76rem;
+    background-image: url(./images/icon19.png);
+}
+.company2 {
+    width: 2.61rem;
+    height: 1.98rem;
+    background-image: url(./images/icon18.png);
+}
+.company3 {
+    width: 2.63rem;
+    height: 1.98rem;
+    background-image: url(./images/icon17.png);
+}
+.company4 {
+    width: 1.75rem;
+    height: 0.65rem;
+    background-image: url(./images/icon16.png);
+}
+.company5 {
+    width: 1.74rem;
+    height: .65rem;
+    background-image: url(./images/icon15.png);
+}

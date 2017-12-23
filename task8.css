@@ -38,10 +38,13 @@ body {
     width: 100%;
     background-color: #fafafa;
 }
+.enterprise_main {
+    padding-bottom: 2rem
+}
 .home_page_nav {
     position: relative;
     width: 100%;
-    height: 0.5rem;
+    height: 0.8rem;
     padding: 0 10%;
     background-color: #29b078;
 }
@@ -59,12 +62,13 @@ body {
 .home_page_nav a {
     display: inline-block;
     width: 0.4rem;
-    height: 0.5rem;
-    line-height: 0.5rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
     text-align: center;
     margin: 0 0.1rem;
     text-decoration: none;
     border-bottom: none;
+    font-size: 0.16rem;
     color: #fff;
 }
 .home_page_nav a:hover {
@@ -109,8 +113,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 0.6rem;
-    border-left: 0.01rem solid ;
+    height: 2rem;
+    width: 2rem;
+    border-left: 0.01rem dashed #999;
     color: #999998;
 }
 .home_page_md span {
@@ -133,8 +138,6 @@ body {
     height: 0.74rem;
     background-image: url(./images/icon8.png);
     transform: scale(.8);
-    /*border: 0.01rem solid #000;*/
-    /*border-radius: 50%;*/
 }
 .task2 {
     width: 0.26rem;
@@ -234,4 +237,187 @@ body {
     width: 1.74rem;
     height: .65rem;
     background-image: url(./images/icon15.png);
+}
+.link_color {
+    margin-top: 0.5rem;
+    background-color: #fff;
+}
+.link_task {
+    padding: 0.1rem 0;
+}
+.link_row {
+    padding: 0 8%;
+}
+.link_row a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #999;
+}
+.link_row a:hover {
+    border-bottom: 0.01rem solid;
+}
+footer {
+    width: 100%;
+    height: 1.8rem;
+    background-color: #26a26f;
+    color: #fff;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+.foot_con {
+    padding-top: 0.2rem
+}
+.empty {
+    width: 0.2rem;
+    height: 0.2rem;
+}
+.footer_a {
+    padding-right: 0.1rem;
+    color: #fff;
+}
+.footer_a1 {
+    padding-left: 0.1rem;
+    border-left: 0.01rem solid #fff;
+}
+.foot_pubic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+.foot_md {
+    padding: 0.3rem 0;
+}
+.foot_md1 {
+    padding: 0.4rem 0;
+}
+.page_foot {
+    width: 100%;
+    margin-top: 0.15rem;
+    border-top: 0.01rem solid #fff;
+    padding-top: 0.02rem;
+}
+.span_right {
+    border-left: 0.01rem solid #fff;
+    padding-left: 0.05rem
+}
+.enterprise_logo {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.09rem;
+    height: 0.49rem;
+    background-image: url(./images/icon2-1.png);
+}
+.enterprise_bg {
+    width: 100%;
+    height: 1.8rem;
+    background-image: url(./images/bg2.png);
+    background-size: cover;
+}
+.enterprise_next {
+    padding: 1% 10%;
+}
+.enterprise_next a {
+    color: #29b078;
+}
+.enterprise_text {
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+.enterprise_text1 {
+    width: 100%;
+
+    border-bottom: 0.01rem solid #999;
+}
+.enterprise_icon {
+    width: 1.34rem;
+    height: 1.22rem;
+    float: left;
+    margin-left: 0.2rem;
+    background-image: url(./images/icon2-2.png);
+}
+.profession_flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profession_flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profession_flex3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profession_direction {
+    padding: 0.1rem 0;
+    border-top: 0.01rem solid #999;
+    border-bottom: 0.01rem solid #c9e2b3;
+}
+.profession_direction1 {
+    padding: 0.1rem 0;
+    border-bottom: 0.01rem solid #999;
+}
+.profession_direction a {
+    color: #000;
+}
+.profession_intro {
+    background-color: #fff;
+    margin: 0.2rem 0;
+}
+.intro_div {
+    /*margin-left: 0.2rem;*/
+    /*margin-right: 0.2rem;*/
+    width: 32%;
+}
+.profession_row {
+    border-top: 0.01rem solid #c9e2b3;
+    /*border-bottom: 0.01rem solid #c9e2b3;*/
+}
+.profession_col {
+    border-right: 0.01rem solid #c9e2b3;
+}
+.intro_icon {
+    float: left;
+    margin: 5% 3%;
+    width: 1.39rem;
+    height: 1.39rem;
+    background-image: url(./images/icon3-1.png);
+}
+.icon_h4 {
+    margin-top: 5%
+}
+.intro_money {
+    height: 0.66rem
+}
+.intro_div {
+
+}
+.text-color {
+    color: #998;
+}
+.span_color {
+    color: red;
+}
+.intro_hidden {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4.13rem;
+    opacity: 0.7;
+    background-color: #000;
+    color: #fff;
+    z-index: -1;
+}
+.intro_div:hover {
+
+    z-index: 99;
 }

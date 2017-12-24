@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 15%;
     width: 100%;
     height: 0.3rem;
     background-color: #fff;
@@ -374,13 +374,10 @@ footer {
     margin: 0.2rem 0;
 }
 .intro_div {
-    /*margin-left: 0.2rem;*/
-    /*margin-right: 0.2rem;*/
     width: 32%;
 }
 .profession_row {
     border-top: 0.01rem solid #c9e2b3;
-    /*border-bottom: 0.01rem solid #c9e2b3;*/
 }
 .profession_col {
     border-right: 0.01rem solid #c9e2b3;
@@ -392,6 +389,7 @@ footer {
     height: 1.39rem;
     background-image: url(./images/icon3-1.png);
 }
+
 .icon_h4 {
     margin-top: 5%
 }
@@ -409,15 +407,20 @@ footer {
 }
 .intro_hidden {
     position: absolute;
-    left: 0;
+    left: 4%;
     top: 0;
-    height: 4.13rem;
-    opacity: 0.7;
+    width: 3.55rem;
+    height: 3.75rem;
+    opacity: 0;
     background-color: #000;
     color: #fff;
-    z-index: -1;
-}
-.intro_div:hover {
+    /*z-index: 1;*/
 
-    z-index: 99;
 }
+.intro_hidden:hover {
+    opacity: 0.7;
+}
+.row p {
+    word-break:break-all;
+}
+

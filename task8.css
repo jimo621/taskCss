@@ -6,6 +6,7 @@ html {
     font-size: 625%;
 }
 body {
+    font-family: 'Microsoft YaHei', sans-serif;
     width: 100%;
     height: 100%;
     background-color: #fafafa;
@@ -88,25 +89,12 @@ header {
 }
 .carousel-control {
     top: 50%;
-    width: 40%;
+    width: 30%;
     height: 15%;
     transform: translateY(-50%);
 
 }
-.carousel-caption p {
-    padding-left: 1.6rem;
-    margin-bottom: -0.2rem;
-    font-size: 0.18rem;
-    color: #fff;
-}
-.carousel-caption h3 {
-    color: #fff;
-    margin-bottom: 1.3rem;
-    margin-top: 0;
-}
-.carousel-caption span {
-    font-size: 0.6rem;
-}
+
 .advantage {
     padding-top: 1rem;
     padding-bottom: 0.5rem;
@@ -178,7 +166,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 2.5rem;
     height: 3rem;
     padding: 0.1rem 0.25rem;
     background-color: #fff;
@@ -223,32 +210,35 @@ header {
 }
 .col_company {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .company {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    /*width: 2.63rem;*/
     height: 1.98rem;
     padding: 0;
-    /*background-color: #fff;*/
+    background-color: #fff;
+}
+.company:hover {
+    border: 0.02rem solid #ebebeb;
 }
 .company1 {
-    width: 2.12rem;
-    height: 1.76rem;
+    width: 1.54rem;
+    height: 0.61rem;
     background-image: url(./images/icon19.png);
 }
 .company2 {
-    width: 1.75rem;
-    height: 1.41rem;
+    width: 0.57rem;
+    height: 0.65rem;
     background-image: url(./images/icon18.png);
 }
 .company3 {
-    width: 2.63rem;
-    height: 1.98rem;
+    width: 1.39rem;
+    height: 0.64rem;
     background-image: url(./images/icon17.png);
 }
 .company4 {
@@ -312,10 +302,10 @@ footer {
 }
 .foot_pubic {
     display: flex;
-    flex-direction: column;
+    flex-direction : column;
     justify-content: center;
     align-items: center;
-    padding-left: 1.5rem;
+    /*padding-left: 1.5rem;*/
 }
 .foot_md {
     padding: 0.3rem 0;
@@ -389,6 +379,12 @@ footer {
     border: 0.01rem solid red;
     border-radius: 50%;
 }
+.enterprise_text:hover .yuan{
+    background-color: #f9a372;
+}
+.enterprise_text:hover a {
+    color: red;
+}
 .enterprise_md3 {
     background-color: #fff;
     padding: 0;
@@ -397,16 +393,19 @@ footer {
     background-color: #fff;
 }
 .enterprise_md8_div {
-    width: 100%;
+    /*width: 100%;*/
     border-bottom: 0.01rem solid #999;
-    height: 1.3rem;
+    min-height: 1.3rem;
 }
 .enterprise_md8_div p {
-    height: 1.3rem;
-    padding-top: 0.15rem
+    /*height: 1.3rem;*/
+    padding-top: 0.15rem;
+    padding-left: 0.2rem;
+    margin-right: 0.2rem;
 }
 .enterprise_md8_p {
-    padding: 0.2rem 0.2rem;
+    /*padding: 0.2rem 0.2rem;*/
+    padding: 0.2rem 0;
 }
 .profession_flex1 {
     display: flex;
@@ -415,6 +414,7 @@ footer {
 }
 .profession_flex3 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -445,7 +445,7 @@ footer {
     margin: 0.2rem 0;
 }
 .intro_div {
-    width: 32%;
+    /*width: 32%;*/
 }
 .intro_icon {
     float: left;
@@ -475,8 +475,9 @@ footer {
 .intro_hidden {
     position: absolute;
     top: 0;
-    width: 3.76rem;
-    height: 3.75rem;
+    left: 0.15rem;
+    width: 100%;
+    height: 100%;
     opacity: 0;
     background-color: #000;
     color: #fff;
@@ -486,4 +487,21 @@ footer {
 }
 .row p {
     word-break:break-all;
+}
+@media (max-width: 425px) {
+    .nav_logo {
+        display: none;
+    }
+    .task_skill {
+        margin-top: 0.3rem;
+    }
+
+}
+@media (min-width: 1024px) {
+    .intro_div{
+        width: 32%;
+    }
+    .company {
+        width: 19%;
+    }
 }

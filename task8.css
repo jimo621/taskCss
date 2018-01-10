@@ -159,7 +159,8 @@ header {
     color: #999999;
 }
 .taskh {
-    padding: 0.2rem 0;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
 .task_skill {
     display: flex;
@@ -220,7 +221,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 1.98rem;
-    padding: 0;
+    /*padding: 0;*/
     background-color: #fff;
 }
 .company:hover {
@@ -305,7 +306,6 @@ footer {
     flex-direction : column;
     justify-content: center;
     align-items: center;
-    /*padding-left: 1.5rem;*/
 }
 .foot_md {
     padding: 0.3rem 0;
@@ -356,6 +356,7 @@ footer {
     justify-content: center;
     height: 0.5rem;
     line-height: 0.5rem;
+    background-color: #fff;
 }
 .enterprise_text1 {
     width: 100%;
@@ -386,25 +387,21 @@ footer {
     color: red;
 }
 .enterprise_md3 {
-    background-color: #fff;
-    padding: 0;
+
 }
 .enterprise_md8 {
-    background-color: #fff;
+
 }
 .enterprise_md8_div {
-    /*width: 100%;*/
     border-bottom: 0.01rem solid #999;
     min-height: 1.3rem;
 }
 .enterprise_md8_div p {
-    /*height: 1.3rem;*/
     padding-top: 0.15rem;
     padding-left: 0.2rem;
     margin-right: 0.2rem;
 }
 .enterprise_md8_p {
-    /*padding: 0.2rem 0.2rem;*/
     padding: 0.2rem 0;
 }
 .profession_flex1 {
@@ -419,7 +416,8 @@ footer {
     align-items: center;
 }
 .profession_direction {
-    padding: 0.1rem 0;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     border-top: 0.01rem solid #999;
     border-bottom: 0.01rem solid #c9e2b3;
 }
@@ -437,12 +435,14 @@ footer {
 
 }
 .profession_direction1 {
-    padding: 0.1rem 0;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     border-bottom: 0.01rem solid #999;
 }
 .profession_intro {
     background-color: #fff;
-    margin: 0.2rem 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 .intro_div {
     /*width: 32%;*/
@@ -488,6 +488,9 @@ footer {
 .row p {
     word-break:break-all;
 }
+.media_write {
+    background-color: #fff;
+}
 @media (max-width: 425px) {
     .nav_logo {
         display: none;
@@ -504,4 +507,17 @@ footer {
     .company {
         width: 19%;
     }
+}
+
+@media (min-width: 768px) {
+    .navbar>.container .navbar-brand {
+        margin-left: 0;
+    }
+}
+@media (max-width: 768px) {
+    .col_company {
+        margin-left: 0.15rem;
+        margin-right: 0.15rem;
+    }
+
 }

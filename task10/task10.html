@@ -7,7 +7,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./task10.css">
 </head>
-<body>
+<body ontouchstart="">
     <header>
         <div class="container">
             <div class="row">
@@ -75,12 +75,24 @@
                         <p class="main_schedule_p">2.选择数量</p>
                     </div>
                     <div class="main_schedule">
-                        <div class="schedule1 schedule3"></div>
-                        <div class="schedule2 schedule3">1</div>
-                        <p class="main_schedule_p schedule3_p">1.定制纸箱</p>
+                        <div class="schedule1"></div>
+                        <div class="schedule2">1</div>
+                        <p class="main_schedule_p">1.定制纸箱</p>
                     </div>
                 </div>
             </div>
+
+            <!--<script>-->
+
+                    <!--$(".main_schedule").click(function(){-->
+                        <!--$(".schedule1").removeClass("schedule3");-->
+                        <!--$(".schedule2").removeClass("schedule3");-->
+                        <!--$(".main_schedule_p").removeClass("schedule3_p");-->
+                        <!--$("this").addClass("schedule3");-->
+                        <!--$(".main_schedule_p",this).addClass("schedule3_p");-->
+                    <!--})-->
+
+            <!--</script>-->
 
             <div class="row">
                     <h4 class=" main_h4">请您按以下步骤来定制您的纸箱</h4>
@@ -96,12 +108,12 @@
                 <div class="row bgcolor2">
                     <div class="col-md-8 col-xs-12">
 
-                        <input type="radio" name="box1" id="box1" value="box1" class="radio" checked>
-                        <label for="box1" class="radio-inline label_input1 radio">对口箱</label>
-                        <input type="radio" name="box1" id="box2" value="box2" class="radio">
-                        <label for="box2" class="radio-inline label_input2 radio">飞机盒</label>
-                        <input type="radio" name="box1" id="box3" value="box3" class="radio">
-                        <label for="box3" class="radio-inline label_input3 radio">天地盖</label>
+                        <input type="radio" name="box1" id="box1" value="box1" checked>
+                        <label for="box1" class="radio-inline label_input1">对口箱</label>
+                        <input type="radio" name="box1" id="box2" value="box2" >
+                        <label for="box2" class="radio-inline label_input2">飞机盒</label>
+                        <input type="radio" name="box1" id="box3" value="box3">
+                        <label for="box3" class="radio-inline label_input3">天地盖</label>
 
                     </div>
                     <div class="col-md-4 col-xs-12">
@@ -129,49 +141,49 @@
                     </div>
                 </div>
                 <div class="row bgcolor2">
-                    <div class="col-md-8 col-xs-12">
+                    <div class="col-md-9 col-xs-12">
 
                         <div class="col-xs-3">
-                            <input type="radio" name="size" id="box4" value="option4" class="radio" checked>
-                            <label for="box4" class="radio radio-inline label_input4">内径</label>
+                            <input type="radio" name="size" id="box4" value="option4" checked>
+                            <label for="box4" class="radio-inline label_input4">内径</label>
                         </div>
-                        <div class="col-xs-3 label_input3">
+                        <div class="col-xs-3 label_input5">
                             <span>长&nbsp;</span>
                             <input class="main_text" type="number" name="chang1" min="1" max="10" />
                             <span>&nbsp;mm</span>
                         </div>
-                        <div class="col-xs-3 label_input3">
+                        <div class="col-xs-3 label_input5">
                             <span>宽&nbsp;</span>
                             <input class="main_text" type="number" name="chang2" min="1" max="10" />
                             <span>&nbsp;mm</span>
                         </div>
-                        <div class="col-xs-3 label_input3">
+                        <div class="col-xs-3 label_input5">
                             <span>高&nbsp;</span>
                             <input class="main_text" type="number" name="chang3" min="1" max="10" />
                             <span>&nbsp;mm</span>
                         </div>
 
                         <div class="col-xs-3">
-                            <input type="radio" name="size" id="box5" value="option5" class="radio">
-                            <label for="box5" class="radio radio-inline label_input4">外径</label>
+                            <input type="radio" name="size" id="box5" value="option5">
+                            <label for="box5" class="radio-inline label_input4">外径</label>
                         </div>
-                        <div class="col-xs-3 label_input3">
+                        <div class="col-xs-3 label_input5">
                             <span>长&nbsp;</span>
                             <input class="main_text" type="number" name="chang4" min="1" max="10" />
                             <span>&nbsp;mm</span>
                         </div>
-                        <div class="col-xs-3 label_input3">
+                        <div class="col-xs-3 label_input5">
                             <span>宽&nbsp;</span>
                             <input class="main_text" type="number" name="chang5" min="1" max="10" />
                             <span>&nbsp;mm</span>
                         </div>
-                        <div class="col-xs-3 label_input3">
+                        <div class="col-xs-3 label_input5">
                             <span>高&nbsp;</span>
                             <input class="main_text" type="number" name="chang6" min="1" max="10" />
                             <span>&nbsp;mm</span>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xs-12">
+                    <div class="col-md-3 col-xs-12">
                         <div class="dropdown pull-right" style="margin-top: .3rem">
                             <button class="btn btn-default dropdown-toggle  mian_button" type="button" id="dropdownMenu1"
                                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
@@ -197,20 +209,20 @@
                 <div class="row bgcolor2">
                     <div class="col-md-10 col-xs-12">
 
-                        <input type="radio" name="box2" id="box6" value="option5" class="radio" checked>
-                        <label for="box6" class="radio radio-inline label_input1">A瓦优质</label>
+                        <input type="radio" name="box2" id="box6" value="option5" checked>
+                        <label for="box6" class="radio-inline label_input1">A瓦优质</label>
 
-                        <input type="radio" name="box2" id="box7" value="option5" class="radio">
-                        <label for="box7" class="radio radio-inline label_input2">B瓦优质</label>
+                        <input type="radio" name="box2" id="box7" value="option5">
+                        <label for="box7" class="radio-inline label_input2">B瓦优质</label>
 
-                        <input type="radio" name="box2" id="box8" value="option5" class="radio">
-                        <label for="box8" class="radio radio-inline label_input2">E瓦优质</label>
+                        <input type="radio" name="box2" id="box8" value="option5">
+                        <label for="box8" class="radio-inline label_input2">E瓦优质</label>
 
-                        <input type="radio" name="box2" id="box9" value="option5" class="radio">
-                        <label for="box9" class="radio radio-inline label_input2">AB瓦优质</label>
+                        <input type="radio" name="box2" id="box9" value="option5">
+                        <label for="box9" class="radio-inline label_input6">AB瓦优质</label>
 
-                        <input type="radio" name="box2" id="box10" value="option5" class="radio">
-                        <label for="box10" class="radio radio-inline label_input3">BE瓦优质</label>
+                        <input type="radio" name="box2" id="box10" value="option5">
+                        <label for="box10" class="radio-inline label_input3">BE瓦优质</label>
                 </div>
 
                     <div class="col-md-2 col-xs-12">
@@ -256,8 +268,8 @@
                         <div class="col-xs-4"><a href="#">媒体介绍</a></div>
                     </div>
                     <div class="col-xs-12 col-md-4">
-                        <div class="icon4 pull-right"></div>
-                        <div class="pull-right">
+                        <div class="icon4 foot_float"></div>
+                        <div class="foot_float">
                             <p>TEL:400-0000-000</p>
                             <p>企鹅QQ:123456789</p>
                             <p>微信号:XXXXXXX</p>

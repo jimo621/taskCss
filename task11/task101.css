@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+  background-color: #eff0f4;
+}
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: .5rem;
+  width: 100%;
+  height: 5rem;
+  background-color: #5fc0cd;
+}
+.head {
+  position: relative;
+  color: #ffffff;
+}
+.go {
+  margin: 1.7rem 12rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.left {
+  position: absolute;
+  width: 10rem;
+  left: -2rem;
+  top: 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.left a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.right {
+  position: absolute;
+  width: 10rem;
+  right: -2rem;
+  top: 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.right a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.username {
+  margin: 1rem 0;
+  width: 100%;
+  height: 6rem;
+  background-color: #ffffff;
+}
+.username img {
+  float: left;
+  margin: 2rem 2rem 1rem;
+  width: 1rem;
+  height: 1.5rem;
+}
+.username input {
+  float: left;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  height: 1.5rem;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-color: #eaedee;
+  outline: none;
+  font-size: 1rem;
+}
+.password {
+  width: 100%;
+  height: 6rem;
+  background-color: #ffffff;
+}
+.password img {
+  float: left;
+  margin: 2rem 2rem 1rem;
+  width: 1rem;
+  height: 1.5rem;
+}
+.password input {
+  float: left;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  height: 1.5rem;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-color: #eaedee;
+  outline: none;
+  font-size: 1rem;
+}
+.submit {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 5rem;
+  color: #ffffff;
+  background-color: #5fc0cd;
+  font-size: 1.8rem;
+}
+.nopassword {
+  display: block;
+  margin-right: .2rem;
+  text-align: right;
+  text-decoration: none;
+  color: #5fc0cd;
+  font-size: 1.5rem;
+}
